@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: cache-34a7e3b
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up uv
